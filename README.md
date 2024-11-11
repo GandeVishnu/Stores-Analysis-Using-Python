@@ -1,6 +1,6 @@
 <h1> Stores Analysis Using Python </h1>
 
-<h3> This repository contains a dataset(Stores_data.csv file) of store transactions, The dataset includes various attributes related to customer purchases across different branches and product lines.
+<h3> This repository contains a dataset of store transactions, The dataset includes various attributes related to customer purchases across different branches and product lines.
 
 </h3>
 
