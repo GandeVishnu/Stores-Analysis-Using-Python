@@ -42,7 +42,7 @@ The dataset is stored in a file named `Stores_data.csv` and includes the followi
 
 ## 📊 Key Insights
 
-- Comparison of revenue, sales volume, and gross income across branches
+- Comparison of Total sales and gross income across branches
 - Product lines contributing most to total sales
 - Popular payment methods among customers
 - Customer satisfaction based on average ratings
