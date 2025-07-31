@@ -33,7 +33,7 @@ The dataset is stored in a file named `Stores_data.csv` and includes the followi
 ## 🎯 Project Objectives
 
 - Clean and preprocess transaction data
-- Perform data analysis (EDA)
+- Perform Data analysis
 - Visualize customer and sales trends
 - Evaluate branch-wise and product line performance
 - Identify patterns in customer types, gender, and payment methods
