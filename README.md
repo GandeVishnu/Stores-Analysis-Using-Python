@@ -56,5 +56,3 @@ The dataset is stored in a file named `Stores_data.csv` and includes the followi
 - Python 3.x  
 - pandas  
 - matplotlib  
-- numpy  
-
