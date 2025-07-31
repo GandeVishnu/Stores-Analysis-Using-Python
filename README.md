@@ -58,10 +58,3 @@ The dataset is stored in a file named `Stores_data.csv` and includes the followi
 - matplotlib  
 - numpy  
 
----
-
-## 🚀 How to Run
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/stores-analysis-python.git
