@@ -1,47 +1,67 @@
-<h1> Stores Analysis Using Python </h1>
+# 🏬 Stores Analysis Using Python
 
-<h3> This repository contains a dataset of store transactions, The dataset includes various attributes related to customer purchases across different branches and product lines.
+## 📋 Overview
 
-</h3>
+This project provides an in-depth analysis of store transaction data to uncover patterns in customer behavior, sales performance, and branch efficiency. The analysis uses Python-based tools to visualize trends, evaluate metrics, and support data-driven decision-making across different store locations and product lines.
 
-**Dataset Description**
+---
 
-The dataset is stored in a CSV file named Stores_data.csv. Below are the key columns included in the dataset:
+## 📁 Dataset Description
 
-Invoice ID: Unique identifier for each transaction.
+The dataset is stored in a file named `Stores_data.csv` and includes the following key columns:
 
-Branch: The branch where the transaction occurred (A, B, or C).
+- **Invoice ID**: Unique identifier for each transaction  
+- **Branch**: The branch where the transaction occurred (A, B, or C)  
+- **City**: The city of the branch (Yangon, Naypyitaw, Mandalay)  
+- **Customer Type**: Type of customer (Member or Normal)  
+- **Gender**: Gender of the customer (Male or Female)  
+- **Product Line**: Category of the product sold (e.g., Health and beauty, Electronic accessories)  
+- **Unit Price**: Price per unit of the product  
+- **Quantity**: Number of units purchased  
+- **Tax 5%**: Tax applied to the transaction  
+- **Total**: Total amount spent by the customer  
+- **Date**: Date of purchase  
+- **Time**: Time of purchase  
+- **Payment**: Payment method used (e.g., Cash, Credit card, Ewallet)  
+- **COGS**: Cost of goods sold  
+- **Gross Margin Percentage**: Percentage of profit margin on sales  
+- **Gross Income**: Total income from sales after deducting COGS  
+- **Rating**: Customer rating for the transaction  
 
-City: The city of the branch (Yangon, Naypyitaw, Mandalay).
+---
 
-Customer Type: Type of customer (Member or Normal).
+## 🎯 Project Objectives
 
-Gender: Gender of the customer (Male or Female).
+- Clean and preprocess transaction data
+- Perform exploratory data analysis (EDA)
+- Visualize customer and sales trends
+- Evaluate branch-wise and product line performance
+- Identify patterns in customer types, gender, and payment methods
+- Detect high-performing time windows and peak transaction hours
 
-Product Line: Category of the product sold (e.g., Health and beauty, Electronic accessories).
+---
 
-Unit Price: Price per unit of the product.
+## 📊 Key Insights
 
-Quantity: Number of units purchased.
+- Comparison of revenue, sales volume, and gross income across branches
+- Product lines contributing most to total sales
+- Popular payment methods among customers
+- Customer satisfaction based on average ratings
+- Behavioral trends across gender and membership types
 
-Tax 5%: Tax applied to the transaction.
+---
 
-Total: Total amount spent by the customer.
+## 🧰 Tools & Libraries Used
 
-Date: Date of purchase.
+- Python 3.x  
+- pandas  
+- matplotlib  
+- numpy  
 
-Time: Time of purchase.
+---
 
-Payment: Payment method used (e.g., Cash, Credit card, Ewallet).
+## 🚀 How to Run
 
-COGS: Cost of goods sold.
-
-Gross Margin Percentage: Percentage of profit margin on sales.
-
-Gross Income: Total income from sales after deducting COGS.
-
-Rating: Customer rating for the transaction.
-
--> It involves data processing, visualization, and performance metric calculations to assess branch performance, sales trends, and customer behavior. By comparing the data across all three branches, the analysis delivers valuable insights to optimize operations and drive business growth.
-
-
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/stores-analysis-python.git
